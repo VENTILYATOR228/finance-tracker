@@ -1,0 +1,9 @@
+<h1>Friends</h1>
+
+<div class="form-group row">
+  <div class="col-sm-12">
+  <% if !@friends.empty? %>
+   <%= render 'friends/list'%>
+  <% end %>
+  </div>
+</div>
